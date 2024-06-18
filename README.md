@@ -2,8 +2,8 @@
 
 历史行政区划代码（1980-2023）。从 https://www.mca.gov.cn/n156/n186/index.html 拉取数据。
 
-- resolve_code(code) 解析最新（2023年）的行政区划代码
-- resolve_code(code， year) 解析指定年份的行政区划代码
+- resolve_code(code) 解析最新（2023年）的行政区划
+- resolve_code(code， year) 解析指定年份的行政区划
 
 ```
 import xzqh
