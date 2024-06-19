@@ -20,7 +20,7 @@ def resolve_history_code(code):
     years = dict()
     for year in range(_startYear, _curYear+1):
         coded = resolve_code(code, year)
-        if "".join(coded) != "":
+        if any(coded):
             years[year] = coded
     return years
 
